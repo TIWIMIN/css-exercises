@@ -88,6 +88,7 @@ ul {
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  place-content: center;
 }
 
 
@@ -96,6 +97,7 @@ ul {
   color: black;
   font-size: 16px;
   font-weight: normal;
+  place-content: center;
 }
 
 .nav {
