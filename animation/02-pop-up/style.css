@@ -56,6 +56,18 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: slide-down 500ms ease forwards;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-35vh) translateX(-50%);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
 }
 
 .backdrop.show {
